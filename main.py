@@ -11,10 +11,10 @@ clear()
 
 os.system("mode 175,30 & title [Vanity Sniper - KaramveerPlayZ#1337]")
 
-token = input("[>] Token: ")
-bot = input("[>] Bot True/False: ")
-guild = int(input("[>] Enter Guild ID To Add Sniped Vanity Code: "))
-code = input("[>] Vanity Code To Snipe, discord.gg/: ")
+token = input("[>] Token: OTk4NTg0ODg0NjE0NDE4NDkz.GY0thR.lpzuQkCq3447-rZzcS6MSHTq2CwbBif6THSESw")
+bot = input("[>] Bot True/False: True")
+guild = int(input("[>] Enter Guild ID To Add Sniped Vanity Code: 998525869687570482"))
+code = input("[>] Vanity Code To Snipe, discord.gg/: hornyy")
 randno = random.randint(10, 99)
 api_ = [6,9,8]
 api = random.choices(api_)
@@ -30,7 +30,7 @@ elif bot in ["False", "false", False]:
 async def snipe_vanity():
   nigger = {
     "code": code,
-    "reason": f"KaramveerPlayZ-Sniper-{randno}"
+    "reason": f"EricPlayz-Sniper-{randno}"
   }
   async with aiohttp.ClientSession() as ssss:
     async with ssss.patch(f"https://discord.com/api/v9/guilds/{guild}/vanity-url", json=nigger, headers=headers) as bruh:
@@ -45,7 +45,7 @@ async def check_vanity():
         if gg.status == 404:
           await snipe_vanity()
         else:
-          print(f"[>] KaramveerPlayZ | Vanity Is Taken, Still Trying To Snipe discord.gg/{code}.")
+          print(f"[>] EricPlayZ | Vanity Is Taken, Still Trying To Snipe discord.gg/{code}.")
 
 
 loop = asyncio.get_event_loop()
