@@ -14,7 +14,7 @@ os.system("mode 175,30 & title [Vanity Sniper - Ericxxxx]")
 token = input([>] Token: "OTk4NTg0ODg0NjE0NDE4NDkz.GaZXXB.UtEklMUx47VM818gM7jFa8szUliWMHdUttJEI0")
 bot = input([>] Bot True/False: "True")
 guild = int(input([>] Enter Guild ID To Add Sniped Vanity Code: "998525869687570482"))
-code = input("[>] Vanity Code To Snipe, discord.gg/: "playzop")
+code = input([>] Vanity Code To Snipe, discord.gg/: "playzop")
 randno = random.randint(10, 99)
 api_ = [6,9,8]
 api = random.choices(api_)
