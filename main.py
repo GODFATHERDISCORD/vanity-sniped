@@ -14,7 +14,7 @@ os.system("mode 175,30 & title [Vanity Sniper - Ericxxxx]")
 token = "OTk4NTg0ODg0NjE0NDE4NDkz.GaZXXB.UtEklMUx47VM818gM7jFa8szUliWMHdUttJEI0"
 bot = "True"
 guild = 998525869687570482
-code = "aliucord"
+code = "aliucord" , "jethiyawaadi"
 randno = random.randint(10, 99)
 api_ = [6,9,8]
 api = random.choices(api_)
